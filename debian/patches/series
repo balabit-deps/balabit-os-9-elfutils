@@ -17,3 +17,5 @@ remove-old-glibc-hack.diff
 kfreebsd-debuginfod
 kfreebsd-mremap-stub
 hurd-hacks.diff
+CVE-2025-1372.patch
+CVE-2025-1377.patch

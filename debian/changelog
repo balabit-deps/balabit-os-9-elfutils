@@ -1,3 +1,16 @@
+elfutils (0.186-1ubuntu0.1) jammy-security; urgency=medium
+
+  * SECURITY UPDATE: null pointer dereference
+    - debian/patches/CVE-2025-1372.patch: Skip trying to uncompress
+      sections without a name.
+    - CVE-2025-1372
+  * SECURITY UPDATE: null pointer dereference
+    - debian/patches/CVE-2025-1377.patch: Verify symbol table is a real
+      symbol table.
+    - CVE-2025-1377
+
+ -- Fabian Toepfer <fabian.toepfer@canonical.com>  Mon, 17 Mar 2025 17:11:50 +0100
+
 elfutils (0.186-1build1) jammy; urgency=medium
 
   * No-change rebuild for ppc64el baseline bump.

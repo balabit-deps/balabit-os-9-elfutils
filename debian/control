@@ -1,6 +1,7 @@
 Source: elfutils
 Priority: optional
-Maintainer: Debian Elfutils Maintainers <debian-gcc@lists.debian.org>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Debian Elfutils Maintainers <debian-gcc@lists.debian.org>
 Uploaders: Kurt Roeckx <kurt@roeckx.be>,
   Matthias Klose <doko@debian.org>,
   Sergio Durigan Junior <sergiodj@debian.org>,
